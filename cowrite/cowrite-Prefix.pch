@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cowrite' target in the 'cowrite' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

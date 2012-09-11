@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB060D3715FF75880011611E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB060D3615FF75880011611E /* Cocoa.framework */; };
+		AB060D4115FF75880011611E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB060D3F15FF75880011611E /* InfoPlist.strings */; };
+		AB060D4315FF75880011611E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060D4215FF75880011611E /* main.m */; };
+		AB060D4715FF75880011611E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB060D4515FF75880011611E /* Credits.rtf */; };
+		AB060D4A15FF75880011611E /* AQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060D4915FF75880011611E /* AQAppDelegate.m */; };
+		AB060D4D15FF75880011611E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB060D4B15FF75880011611E /* MainMenu.xib */; };
+		AB060D5B15FFD83C0011611E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB060D5A15FFD83C0011611E /* Foundation.framework */; };
+		AB060D5E15FFD83C0011611E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060D5D15FFD83C0011611E /* main.m */; };
+		AB060D6215FFD83C0011611E /* coread.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB060D6115FFD83C0011611E /* coread.1 */; };
+		AB060D6C15FFDA980011611E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB060D5A15FFD83C0011611E /* Foundation.framework */; };
+		AB060D6F15FFDA980011611E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060D6E15FFDA980011611E /* main.m */; };
+		AB060D7315FFDA980011611E /* cowrite.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB060D7215FFDA980011611E /* cowrite.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB060D5615FFD83C0011611E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB060D6215FFD83C0011611E /* coread.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB060D6815FFDA980011611E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB060D7315FFDA980011611E /* cowrite.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB060D3215FF75880011611E /* LogWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060D3615FF75880011611E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB060D3915FF75880011611E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB060D3A15FF75880011611E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB060D3B15FF75880011611E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB060D3E15FF75880011611E /* LogWatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogWatcher-Info.plist"; sourceTree = "<group>"; };
+		AB060D4015FF75880011611E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB060D4215FF75880011611E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB060D4415FF75880011611E /* LogWatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogWatcher-Prefix.pch"; sourceTree = "<group>"; };
+		AB060D4615FF75880011611E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AB060D4815FF75880011611E /* AQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQAppDelegate.h; sourceTree = "<group>"; };
+		AB060D4915FF75880011611E /* AQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQAppDelegate.m; sourceTree = "<group>"; };
+		AB060D4C15FF75880011611E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB060D5815FFD83C0011611E /* coread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coread; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060D5A15FFD83C0011611E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB060D5D15FFD83C0011611E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB060D6015FFD83C0011611E /* coread-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coread-Prefix.pch"; sourceTree = "<group>"; };
+		AB060D6115FFD83C0011611E /* coread.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coread.1; sourceTree = "<group>"; };
+		AB060D6A15FFDA980011611E /* cowrite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cowrite; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060D6E15FFDA980011611E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB060D7115FFDA980011611E /* cowrite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cowrite-Prefix.pch"; sourceTree = "<group>"; };
+		AB060D7215FFDA980011611E /* cowrite.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cowrite.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB060D2F15FF75880011611E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D3715FF75880011611E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060D5515FFD83C0011611E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D5B15FFD83C0011611E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060D6715FFDA980011611E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D6C15FFDA980011611E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB060D2715FF75880011611E = {
+			isa = PBXGroup;
+			children = (
+				AB060D3C15FF75880011611E /* LogWatcher */,
+				AB060D5C15FFD83C0011611E /* coread */,
+				AB060D6D15FFDA980011611E /* cowrite */,
+				AB060D3515FF75880011611E /* Frameworks */,
+				AB060D3315FF75880011611E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB060D3315FF75880011611E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D3215FF75880011611E /* LogWatcher.app */,
+				AB060D5815FFD83C0011611E /* coread */,
+				AB060D6A15FFDA980011611E /* cowrite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB060D3515FF75880011611E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D3615FF75880011611E /* Cocoa.framework */,
+				AB060D5A15FFD83C0011611E /* Foundation.framework */,
+				AB060D3815FF75880011611E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB060D3815FF75880011611E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D3915FF75880011611E /* AppKit.framework */,
+				AB060D3A15FF75880011611E /* CoreData.framework */,
+				AB060D3B15FF75880011611E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB060D3C15FF75880011611E /* LogWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D4815FF75880011611E /* AQAppDelegate.h */,
+				AB060D4915FF75880011611E /* AQAppDelegate.m */,
+				AB060D4B15FF75880011611E /* MainMenu.xib */,
+				AB060D3D15FF75880011611E /* Supporting Files */,
+			);
+			path = LogWatcher;
+			sourceTree = "<group>";
+		};
+		AB060D3D15FF75880011611E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D3E15FF75880011611E /* LogWatcher-Info.plist */,
+				AB060D3F15FF75880011611E /* InfoPlist.strings */,
+				AB060D4215FF75880011611E /* main.m */,
+				AB060D4415FF75880011611E /* LogWatcher-Prefix.pch */,
+				AB060D4515FF75880011611E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB060D5C15FFD83C0011611E /* coread */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D5D15FFD83C0011611E /* main.m */,
+				AB060D6115FFD83C0011611E /* coread.1 */,
+				AB060D5F15FFD83C0011611E /* Supporting Files */,
+			);
+			path = coread;
+			sourceTree = "<group>";
+		};
+		AB060D5F15FFD83C0011611E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D6015FFD83C0011611E /* coread-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB060D6D15FFDA980011611E /* cowrite */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D6E15FFDA980011611E /* main.m */,
+				AB060D7215FFDA980011611E /* cowrite.1 */,
+				AB060D7015FFDA980011611E /* Supporting Files */,
+			);
+			path = cowrite;
+			sourceTree = "<group>";
+		};
+		AB060D7015FFDA980011611E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB060D7115FFDA980011611E /* cowrite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB060D3115FF75880011611E /* LogWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060D5015FF75880011611E /* Build configuration list for PBXNativeTarget "LogWatcher" */;
+			buildPhases = (
+				AB060D2E15FF75880011611E /* Sources */,
+				AB060D2F15FF75880011611E /* Frameworks */,
+				AB060D3015FF75880011611E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogWatcher;
+			productName = LogWatcher;
+			productReference = AB060D3215FF75880011611E /* LogWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB060D5715FFD83C0011611E /* coread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060D6315FFD83C0011611E /* Build configuration list for PBXNativeTarget "coread" */;
+			buildPhases = (
+				AB060D5415FFD83C0011611E /* Sources */,
+				AB060D5515FFD83C0011611E /* Frameworks */,
+				AB060D5615FFD83C0011611E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coread;
+			productName = coread;
+			productReference = AB060D5815FFD83C0011611E /* coread */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB060D6915FFDA980011611E /* cowrite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060D7415FFDA980011611E /* Build configuration list for PBXNativeTarget "cowrite" */;
+			buildPhases = (
+				AB060D6615FFDA980011611E /* Sources */,
+				AB060D6715FFDA980011611E /* Frameworks */,
+				AB060D6815FFDA980011611E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cowrite;
+			productName = cowrite;
+			productReference = AB060D6A15FFDA980011611E /* cowrite */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB060D2915FF75880011611E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AQ;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jim Dovey";
+			};
+			buildConfigurationList = AB060D2C15FF75880011611E /* Build configuration list for PBXProject "LogWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB060D2715FF75880011611E;
+			productRefGroup = AB060D3315FF75880011611E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB060D3115FF75880011611E /* LogWatcher */,
+				AB060D5715FFD83C0011611E /* coread */,
+				AB060D6915FFDA980011611E /* cowrite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB060D3015FF75880011611E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D4115FF75880011611E /* InfoPlist.strings in Resources */,
+				AB060D4715FF75880011611E /* Credits.rtf in Resources */,
+				AB060D4D15FF75880011611E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB060D2E15FF75880011611E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D4315FF75880011611E /* main.m in Sources */,
+				AB060D4A15FF75880011611E /* AQAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060D5415FFD83C0011611E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D5E15FFD83C0011611E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060D6615FFDA980011611E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060D6F15FFDA980011611E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB060D3F15FF75880011611E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060D4015FF75880011611E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB060D4515FF75880011611E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060D4615FF75880011611E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AB060D4B15FF75880011611E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060D4C15FF75880011611E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB060D4E15FF75880011611E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB060D4F15FF75880011611E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB060D5115FF75880011611E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogWatcher/LogWatcher-Prefix.pch";
+				INFOPLIST_FILE = "LogWatcher/LogWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB060D5215FF75880011611E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogWatcher/LogWatcher-Prefix.pch";
+				INFOPLIST_FILE = "LogWatcher/LogWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB060D6415FFD83C0011611E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coread/coread-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB060D6515FFD83C0011611E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coread/coread-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB060D7515FFDA980011611E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowrite/cowrite-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB060D7615FFDA980011611E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowrite/cowrite-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB060D2C15FF75880011611E /* Build configuration list for PBXProject "LogWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060D4E15FF75880011611E /* Debug */,
+				AB060D4F15FF75880011611E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB060D5015FF75880011611E /* Build configuration list for PBXNativeTarget "LogWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060D5115FF75880011611E /* Debug */,
+				AB060D5215FF75880011611E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB060D6315FFD83C0011611E /* Build configuration list for PBXNativeTarget "coread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060D6415FFD83C0011611E /* Debug */,
+				AB060D6515FFD83C0011611E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB060D7415FFDA980011611E /* Build configuration list for PBXNativeTarget "cowrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060D7515FFDA980011611E /* Debug */,
+				AB060D7615FFDA980011611E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB060D2915FF75880011611E /* Project object */;
+}
